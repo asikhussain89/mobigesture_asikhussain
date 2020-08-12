@@ -1,0 +1,79 @@
+
+.main-input-box {
+    float: left;
+    height: 30px;
+    width: 250px;
+    padding: 2px 2px;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+.main-input-box span {
+    font-size: 14px;
+}
+
+.down-arrow-container {
+    width: 35px;
+    height: 34px;
+    border: 1px solid #000;
+    float: left;
+    background-image: url("http://localhost:8001/src/img/down_arrow.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.country-list-container {
+    display: none;
+    width: 291px;
+    max-height: 190px;
+    border: 1px solid #000;
+    clear: left;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.search-box {
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    width: 225px;
+    height: 30px;
+    padding: 0 10px 0 35px;
+    background-image: url(http://localhost:8001/src/img/search.png);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: left center;
+}
+
+.country-list-ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.not-found-text-container {
+    width: 60%;
+    padding-left: 10px;
+    float: left;
+}
+
+.add-select-btn {
+    float: left;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 6px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.add-country-container {
+    margin-top: 15px;
+}
+
+.more-country-text-container {
+    display: none;
+    width: 290px;
+    position: relative;
+    top: -28px;
+    text-align: right;
+}
